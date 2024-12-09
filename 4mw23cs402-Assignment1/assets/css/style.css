@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    background: #f9e2ab; /* Soft Beige Background */
+}
+
+header {
+    background: #f9d163; /* Sunny Yellow */
+    color: #6d6875; /* Muted Gray-Purple */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #6d6875;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4f0621; /* Soft Pink */
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f8edeb; /* Gentle Pastel */
+    color: #6d6875;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #fff;
+    color: #6d6875;
+    border-top: 2px solid #ffafcc;
+}
+
+/* Button Styles */
+button {
+    background: #ffcad4; /* Soft Pink */
+    color: #6d6875;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #3a020e; /* Brighter Pink */
+    transform: scale(1.05);
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav a {
+        margin: 0 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
